@@ -23,7 +23,7 @@ function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-center md:items-start gap-4">
-              <button className="bg-primary hover:bg-primary-hover text-white rounded-xl px-8 py-3 text-base shadow-lg shadow-primary/30">
+              <button className="bg-primary transition-colors hover:bg-primary-hover text-white rounded-xl px-8 py-3 text-base shadow-lg shadow-primary/30">
                 Generate Your First Post
               </button>
 
