@@ -1,16 +1,12 @@
 import { Github, Instagram, Linkedin } from "lucide-react";
-import Image from "next/image";
 
 function Footer() {
   return (
     <footer className="mt-10 py-20">
-      <div>
-        <Image src="/img/logo.png" alt="logo" width={200} height={50} />
-      </div>
       <hr />
       <div className="flex flex-row justify-between mt-5">
         <p className="text-md font-medium text-black/30">
-          © 2024 Your Company Name. All rights reserved.
+          © 2024 made by amirhossein.
         </p>
         <div>
           <ul className="flex flex-row items-center gap-5 text-black/50 ">
