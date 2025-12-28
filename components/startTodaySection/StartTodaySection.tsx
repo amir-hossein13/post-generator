@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function StartTodaySection() {
   return (
     <section className="bg-primary/80 py-20 mt-10">
@@ -9,9 +11,12 @@ function StartTodaySection() {
           Boost your social media presence with AI-generated content for
           LinkedIn & Instagram.
         </p>
-        <button className="bg-white  hover:bg-primary-hover text-black rounded-xl px-8 py-3 text-base shadow-lg transition-colors shadow-primary/30">
+        <Link
+          href="/agent"
+          className="bg-white  hover:bg-primary-hover text-black rounded-xl px-8 py-3 text-base shadow-lg transition-colors shadow-primary/30"
+        >
           Generate Your First Post
-        </button>
+        </Link>
       </div>
     </section>
   );

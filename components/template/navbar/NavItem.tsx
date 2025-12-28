@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const NavItemObj = [{ label: "Home", href: "#home" }];
 
 function NavItem() {
@@ -10,9 +12,9 @@ function NavItem() {
           </a>
         </li>
       ))}
-      <button className="bg-primary transition-colors hover:bg-primary-hover text-white rounded-xl px-3 py-3 text-base shadow-lg shadow-primary/30">
+      <Link href="/agent" className="bg-primary transition-colors hover:bg-primary-hover text-white rounded-xl px-3 py-3 text-base shadow-lg shadow-primary/30">
         Generate Your First Post
-      </button>
+      </Link>
     </ul>
   );
 }
