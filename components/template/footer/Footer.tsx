@@ -6,7 +6,7 @@ function Footer() {
       <hr />
       <div className="flex flex-row justify-between mt-5">
         <p className="text-md font-medium text-black/30">
-          © 2024 made by amirhossein.
+          © 2026 made by amirhossein.
         </p>
         <div>
           <ul className="flex flex-row items-center gap-5 text-black/50 ">

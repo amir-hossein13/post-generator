@@ -1,15 +1,15 @@
 import Link from "next/link";
 
-const NavItemObj = [{ label: "Home", href: "#home" }];
+const NavItemObj = [{ label: "Home", href: "/" }];
 
 function NavItem() {
   return (
     <ul className="nav-ul">
       {NavItemObj.map((item) => (
         <li key={item.href}>
-          <a href={item.href} className="nav-li cursor-pointer transition ">
+          <Link href={item.href} className="nav-li cursor-pointer transition ">
             {item.label}
-          </a>
+          </Link>
         </li>
       ))}
       <Link href="/agent" className="bg-primary transition-colors hover:bg-primary-hover text-white rounded-xl px-3 py-3 text-base shadow-lg shadow-primary/30">
